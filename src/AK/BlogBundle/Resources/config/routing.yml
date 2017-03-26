@@ -1,0 +1,3 @@
+ak_blog_homepage:
+    path:     /
+    defaults: { _controller: AKBlogBundle:Default:index }
