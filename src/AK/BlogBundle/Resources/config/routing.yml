@@ -1,3 +1,7 @@
+ak_blog_post:
+    resource: "@AKBlogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
 ak_blog_homepage:
     path:     /
     defaults: { _controller: AKBlogBundle:Default:index }
